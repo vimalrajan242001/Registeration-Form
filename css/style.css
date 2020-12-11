@@ -7,7 +7,13 @@ body, html{
   line-height:1.8em;
   color:#666;
 }
-
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer a{
+  color: red;
+}
 .pimg1, .pimg2, .pimg3{
   position:relative;
   opacity:0.70;
@@ -21,7 +27,12 @@ body, html{
   */
   background-attachment:fixed;
 }
-
+.footer{
+  text-align: center;
+  color: #ffffff;
+  background-color: #282e34;
+  width: 100%;
+}
 .pimg1{
   background-image:url('../img/image1.jpg');
   min-height:100%;
@@ -102,5 +113,5 @@ body, html{
   position:relative;
   top:1px;
 }
-
+}
         
